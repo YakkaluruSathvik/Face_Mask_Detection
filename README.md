@@ -11,6 +11,7 @@ It consists of images and corresponding labels for three different classes as fo
 The given labels are in Pascal VOC format (XML) they should be converted into YOLO format (Text) for training. After that data is split into 80:20 ratio.
 
 ## Training
+The training for this notebook is done on Google Colaboratory. <br>
 The model is trained using the given dataset for ~120 epochs. Other parameters are <br>
 Image size : 640 x 640 <br>
 Batch size : 32
@@ -24,4 +25,14 @@ WOM   |  0.787    | 0.752  |  0.790  | 0.475   | 0.691    | 91.39%
 MWI   |  0.717    | 0.633  |  0.747  | 0.551   | 0.6723   | 97.84%
 
 ## Results
+##### Predicted image 1
+![picture alt](maksssksksss29.png "Predicted image 1")
 
+##### Predicted image 2
+![picture alt](maksssksksss320.png "Predicted image 2")
+
+##### Predicted image 3
+![picture alt](maksssksksss459.png "Predicted image 3")
+
+##### Predicted image 4
+![picture alt](maksssksksss702.png "Predicted image 4")
